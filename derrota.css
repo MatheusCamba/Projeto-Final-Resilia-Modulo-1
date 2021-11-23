@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    
+    font-family: 'Anton', sans-serif;
+
+background-image: url(./img/bairro-botafogo-dois.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.container1 {
+    margin: 73px 0;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.jogue-novamente{
+    background-color: black;
+    color:red;
+    width: 302px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    border-radius: 20px;
+    
+}
+
+.container2:hover {
+    cursor: pointer;
+    font-size: 45px;
+    
+}
+
