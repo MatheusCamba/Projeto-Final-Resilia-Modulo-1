@@ -10,41 +10,43 @@ background-size: cover;
 
 }
 
-.container1 {
-    margin: 73px 0;
-}
-
-.container2{
-    display: flex;
-    justify-content: center;
-    margin-top: 81px;
-}
-
-a{
-    text-decoration: none;
-}
-
 p {
     font-size: 40px;
     text-align: center;
-    
+    padding: 75px 230px;
 }
 
-.jogue-novamente{
-    background-color: black;
-    color:red;
-    width: 302px;
-    height: 75px;
+.container2 {
+    width: 100%;
+    height: 117px;
     display: flex;
-    justify-content: center;
-    padding-top: 26px;
-    border-radius: 20px;
-    
+    justify-content: center; 
 }
 
-.container2:hover {
+.link-escolha {
+    text-decoration: none;
+
+}
+
+.link-escolha:hover{
     cursor: pointer;
-    font-size: 45px;
-    
+}
+
+.link-escolha:visited {
+    color: red;
+}
+
+.escolha {
+    margin-top: 50px;
+    font-size: 70px;
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.escolha:hover {
+    font-size: 60px;
+    transition: 0.5s;
+    color: red;
 }
 
